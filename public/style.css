@@ -1,0 +1,41 @@
+ /* Estilos de la tarjeta */
+ .card {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Estilos del encabezado de la tarjeta */
+  .card-header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+
+  /* Estilos del cuerpo de la tarjeta */
+  .card-body {
+    padding: 20px;
+  }
+
+  /* Estilos para los datos específicos */
+  .weather-icon {
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: 0 auto 10px;
+  }
+
+  .temperature {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .description {
+    font-size: 16px;
+    color: #555;
+  }
